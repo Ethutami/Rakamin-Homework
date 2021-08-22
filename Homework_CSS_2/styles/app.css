@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 228px;
+  margin-bottom: 156px;
+}
+
+#avatar {
+  padding: 0.7em;
+  margin-left: 115px;
+  margin-top: 0.3em;
+  height: 243px;
+  width: 243px;
+  border-radius: 18em;
+}
+
+.name, .job {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: Heebo;
+}
+
+.contact {
+  display: flex;
+  background-color: #EDF7FA;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 55px;
+  margin-bottom: 29px;
+}
+.contact h3 {
+  color: #136223;
+  font-size: 18px;
+  font-family: inter;
+}
+.contact .info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact .info i {
+  margin-right: 18px;
+}
+.contact .info p, .contact .info li {
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+.contact h5 {
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 600;
+}
+.contact p, .contact li {
+  font-family: inter;
+  font-size: 12px;
+  font-weight: 400;
+}
+.contact li {
+  color: #52575C;
+}
+
+.title {
+  margin-left: 146px;
+  color: #136223;
+  font-weight: 600;
+  font-family: Inter;
+  font-size: 18px;
+}
+
+.experiance {
+  display: flex;
+  flex-direction: column;
+  padding-left: 146px;
+  justify-content: center;
+}
+.experiance div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.experiance div img {
+  width: 245px;
+  height: 180px;
+  resize: inherit;
+  margin-right: 18px;
+}
+.experiance div .project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.experiance div .project .date {
+  background-color: #142850;
+  color: #ffffff;
+  padding: 0px 10px 0px 10px;
+  margin-right: 26px;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: Heboo;
+}
+.experiance div .project .project-name {
+  font-family: Heboo;
+  font-weight: 400;
+  font-size: 20px;
+  color: #8695A4;
+}
+.experiance div .project .desc {
+  width: 594px;
+}
+.experiance h3 {
+  color: #21243D;
+  font-family: Heebo;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  padding: 0px 40% 0px 40%;
+  justify-content: space-around;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 166px;
+}
+
+/*# sourceMappingURL=app.css.map */
